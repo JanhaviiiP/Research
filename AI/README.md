@@ -22,7 +22,10 @@ With the rapid integration of artificial intelligence (AI) into diverse sectors,
 6. [Implementation and Experimentation](#implementation-and-experimentation)
 7. [Proposed Framework for Ethical AI](#proposed-framework-for-ethical-ai)
 8. [Discussion](#discussion)
-9. [Conclusion](#conclusion)
+9. [Advantages and Disadvantages](#advantages-and-disadvantages)
+10. [Skills Used](#skills-used)
+11. [Technology Used](#technology-used)
+12. [Conclusion](#conclusion)
 
 ---
 
@@ -155,13 +158,55 @@ Further research should explore transparency tools, adaptable fairness metrics, 
 
 ---
 
-## **9. Conclusion**
+## **9. Advantages and Disadvantages**
+
+### Advantages
+- **Improved Fairness**: Bias mitigation techniques lead to more equitable outcomes for diverse groups.
+- **Enhanced Trust**: Transparent AI practices foster trust among users, regulators, and stakeholders.
+- **Accountability**: Clearly defined roles and responsibilities make it easier to ensure ethical compliance.
+- **Adaptability**: The framework supports continuous improvement, adapting to evolving societal values and regulations.
+
+### Disadvantages
+- **Complexity in Implementation**: Implementing fairness-aware algorithms and regular audits can be resource-intensive.
+- **Trade-Offs in Performance**: Certain bias mitigation techniques may reduce model accuracy, creating a balance between fairness and performance.
+- **Data Constraints**: Ensuring diverse and representative data can be challenging, especially for small or specialized datasets.
+- **Technical Limitations**: Some fairness metrics and mitigation techniques are not universally applicable and require careful customization.
+
+---
+
+## **10. Skills Used**
+
+- **Data Preprocessing**: Handling missing values, normalization, and encoding for consistent data structure.
+- **Statistical Analysis**: Applying fairness metrics (demographic parity, equalized odds) to assess bias levels.
+- **Machine Learning Model Development**: Training logistic regression and neural network models, and evaluating performance.
+- **Bias Mitigation Techniques**: Implementing pre-processing, in-processing, and post-processing approaches for bias reduction.
+- **Data Visualization**: Creating tables and graphs to illustrate the effectiveness of bias mitigation techniques.
+- **Explainable AI (XAI)**: Using interpretability tools (e.g., SHAP, LIME) to provide insights into model decisions.
+- **Documentation and Reporting**: Drafting model cards and documentation for transparency and accountability.
+
+---
+
+## **11. Technology Used**
+
+- **Python**: Programming language for data manipulation, modeling, and evaluation.
+- **Pandas and NumPy**: Libraries for data preprocessing, manipulation, and statistical analysis.
+- **scikit-learn**: Toolkit for machine learning model development, training, and evaluation.
+- **TensorFlow/Keras**: Deep learning frameworks for building and training neural networks.
+- **SHAP and LIME**: Libraries for model interpretability, helping visualize feature contributions.
+- **Matplotlib and Seaborn**: Data visualization libraries for creating visual comparisons of model fairness and performance.
+- **Jupyter Notebooks**: Development environment for experimentation, visualization, and documentation.
+
+---
+
+## **12. Conclusion**
 
 This paper highlights the importance of integrating fairness, accountability, and transparency to develop ethical AI systems. By addressing technical challenges and refining bias mitigation methods, this framework offers a pathway toward equitable AI practices.
 
 ---
 
 ## **References**
+
  please refer to the original paper.
 
 ---
+
