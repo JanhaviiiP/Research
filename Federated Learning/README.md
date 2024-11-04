@@ -88,6 +88,36 @@ Future research areas include:
 
 ---
 
+
+## Advantages and Disadvantages
+
+### Advantages
+- **Privacy Protection**: Federated Learning enables data privacy by ensuring that data remains on local devices.
+- **Reduced Risk of Data Breaches**: Since data isn’t transmitted to a central server, the risk of centralized data breaches is minimized.
+- **Improved Personalization**: Localized training allows models to be more tailored to individual user behaviors.
+
+### Disadvantages
+- **Communication Overhead**: Transmitting model updates between devices and servers can be resource-intensive.
+- **Limited Data Access**: Since the raw data is never centralized, it may limit certain types of analyses and model improvements.
+- **Security Concerns**: Although data is not shared, model updates themselves can potentially leak information without additional privacy measures.
+
+---
+
+## Skills Used
+- **Machine Learning & Deep Learning**: Designing and training models using advanced machine learning techniques.
+- **Data Privacy & Security**: Implementing privacy-preserving techniques and understanding data governance principles.
+- **Python Programming**: Coding the Federated Learning framework and managing data flows.
+- **Statistical Analysis**: Evaluating model performance and understanding the statistical implications of Federated Learning.
+- **Technical Writing**: Documenting the research findings in a structured, academic format.
+
+## Technologies Used
+- **Python**: Primary language for developing Federated Learning models.
+- **TensorFlow/Federated (TFF)**: Framework used to implement Federated Learning.
+- **PySyft**: Library for privacy-preserving machine learning.
+- **Secure Aggregation Algorithms**: Techniques to aggregate model updates securely.
+- **Jupyter Notebooks**: For experimentation, analysis, and visualization of results.
+
+---
 ## **9. Conclusion**
 
 FL represents a transformative approach for privacy-preserving machine learning across industries. By addressing current technical challenges and advancing privacy techniques, FL can become a foundational tool for secure and decentralized data analysis.
